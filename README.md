@@ -4,7 +4,7 @@
 > https://consumo-api-yugioh.netlify.app/
 
 ## 📜 Sobre o projeto 
-> Este projeto é uma aplicação web desenvolvida para consumir a API de cartas de Yu-Gi-Oh! disponibilizada pelo site YGOPRODeck (https://ygoprodeck.com/api-guide/). A aplicação permite aos usuários pesquisar e visualizar informações detalhadas sobre cartas do famoso jogo de cartas Yu-Gi-Oh! diretamente em seu navegador.
+> Este projeto é uma aplicação web desenvolvida para consumir a API de cartas de Yu-Gi-Oh! disponibilizada pelo site YGOPRODeck (https://ygoprodeck.com/api-guide/). A aplicação permite aos usuários pesquisar e visualizar informações detalhadas sobre cartas do famoso jogo de cartas diretamente em seu navegador.
 
 ## 🎥 Vídeo demonstrativo
 > 
