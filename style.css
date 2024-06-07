@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfc38b;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+button, input {
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #e7d1a5;
+    border: none; 
+    outline: none; 
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: relative;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+li:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.card-card {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 20px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(35, 32, 32, 0.8);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+    text-align: left;
+    overflow-y: auto; 
+}
+
+li:hover .details {
+    display: block;
+}
+
+.card-name {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 5px;
+    margin: 0; 
+}
+
+.monster {
+    background-color: #d4a116;
+}
+
+.spell {
+    background-color: #06b88c;
+}
+
+.trap {
+    background-color: #eb4d9c;
+}
+
+.left-text {
+    float: left;
+    margin-right: 10px;
+}
+
+.right-text {
+    float: right;
+    margin-left: 10px;
+}
+
+button {
+    float: none; 
+}
+
+.left-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #000000; 
+    margin-top: 15px;
+    margin-left: 80px;
+    font-weight: bold;
+}
+.right-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #000000;
+    margin-top: 18px; 
+    margin-right: 120px;
+}

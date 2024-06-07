@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Consumo de API - Cartas de Yu-Gi-Oh!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/millennium icon.png" type="image/x-icon">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+<div id="app">
+    <p class="left-text">Consumo de API - Cartas de Yu-Gi-Oh!</p>
+    <button @click="fetchCards">Chamar Cartas</button>
+    <p class="right-text">Desenvolvido por Luiz Felipe Soares</p>
+    <input type="text" v-model="searchText" placeholder="Informe o nome da carta" v-if="cardsFetched">
+    <div class="card-container" v-if="cardsFetched">
+        <ul>
+            <li v-for="card in filteredCards" :key="card.id" :class="getTypeClass(card.type)" @mouseover="card.showDetails = true" @mouseleave="card.showDetails = false">
+                <div class="card-card">
+                    <img :src="card.card_images[0].image_url" alt="">
+                    <div v-if="card.showDetails" class="details">
+                        <p>{{ card.desc }}</p>
+                    </div>
+                </div>
+                <p class="card-name">{{ card.name }}</p>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
