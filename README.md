@@ -7,7 +7,7 @@
 > Este projeto é uma aplicação web desenvolvida para consumir a API de cartas de Yu-Gi-Oh! disponibilizada pelo site YGOPRODeck (https://ygoprodeck.com/api-guide/). A aplicação permite aos usuários pesquisar e visualizar informações detalhadas sobre cartas do famoso jogo de cartas diretamente em seu navegador.
 
 ## 🎥 Vídeo demonstrativo
-> 
+> https://drive.google.com/file/d/1MmT3d0AS6ByixV3qudvvxkwQ-Nuqx5ct/view?usp=sharing
 
 ## ⚙️ Funcionalidades do projeto
 ### Busca de Cartas
